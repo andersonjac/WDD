@@ -1,3 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+
+.msg h2{font-family:  Indie Flower, 'Bradley Hand', sans-serif}
+
+body {Background-color:#e5c123;
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 22px; 
+    margin: 0; 
+    padding: 0;}
+   
+h2 {
+     margin: 0;
+    }    
+
+.home-title {
+    font-family: Indie Flower, "Bradley Hand", "sans-serif";
+     font-size: 2em;
+     margin-top: 10px;}
+
+
 #content {
     max-width:1600px;
      margin: 0 auto;
@@ -25,10 +46,6 @@ main section{ text-align: center;}
     background-color:#737686;
     opacity: 0.8; }
 
-body {
-    background-color:#e5c123 ;
-}
-
 header { background-color: #172746 ;}
 
 nav a:hover {
@@ -39,6 +56,10 @@ nav a:hover {
 .book, .join {background-color: #e5c123
     ;color: #172746;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -46,10 +67,14 @@ nav a:hover {
 color:white ;}
 
 .msg{background-color: #e5c123;
-
+font-size: .8em;
+line-height: 1.5em;
 }
 
-footer {background-color:#172746;}
+footer {
+    background-color:#172746;
+    padding: 25px 50px;
+    margin-top: 200px}
 
 .home-title{ 
    color: #172746;
@@ -59,9 +84,11 @@ h4 {
     color: #172746;
 }
 
-.msg h2 {color: #737686;
+.msg h2 {color: white;
 ;}
-.msg p {color: #172746;}
+.msg p {color: white;
+    padding-bottom: 15px;}
+
 footer h3 { color: #e5c123;
 
 }
@@ -71,18 +98,37 @@ footer a:hover {color: white;}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{ width: 100%;}
 
 footer h3 a:hover { text-decoration: underline;}
 
+ p { font-size: .8em;}
+
+
  
+#logo_link{padding-top: 5px;}   
+
+
+.msg {
+    background-color: #172746; padding: 35px;}
+
+
+footer .social img {padding-top: 15px;}  
        
 
 
+.rivers-card, .camping-card, .rapids-card   {margin: 200px 0;}
 
+.card-img {
+    border: 10px solid #172746;
+}
 
+main section img {
+    box-sizing: border-box;
+}
 
 
 
