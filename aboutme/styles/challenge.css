@@ -1,21 +1,27 @@
-#content { 
-    max-width:1600px;
-     margin: 0 auto;
-} 
-.circle { 
-    max-width: 400px;
-    
-} 
+img {
+    width: 100%;
+}
+body {
+    background-color: grey;
+}
+#one-img, #two-img, #tree-img {
 
+    width: 20%;
+    margin: 5%;
+    border-radius: 75% ;
+    border: 15px solid rgb(65, 65, 65);
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-img { text-align: center;
-    margin: 20px;
-} 
+}
 
+#one-img {
+    margin-left: 130px;
 
-body { 
-    margin: 0} 
+}
+#two-img {
+    margin-left: 45px;
 
-header{ width: 100px;
-     } 
-
+}
+#tree-img {
+    margin-left: 45px;}
